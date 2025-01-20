@@ -1,0 +1,461 @@
+.owl-carousel .owl-prev,.owl-carousel .owl-next{
+  position: absolute;
+  top: 40% !important;
+  transform: translateY(-50%) !important;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% !important;
+  /* background-color: rgb(95, 155, 67) !important; */
+  cursor: pointer;
+}
+
+
+.owl-prev{
+  left: 1%;
+}
+
+.owl-next{
+  right: 1%;
+}
+
+.item li{
+ list-style-type: none;
+ margin-top: 5px;
+}
+
+/* ......................>>>>>>>>>>>>>>>>>>>>>>>NAVBAR<<<<<<<<<<<<<<<<<.................... */
+.navbar .navbar_first ul li a{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 1s linear;
+}
+
+.navbar_first{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_first ul li a:hover{
+  background-color: rgb(58, 58, 58);
+  border-radius: 20px;
+}
+
+/* .........>>>>>>>>>>>>>>>>>>>>>>>SECOND NAVBAR<<<<<<<<<<<<<<<<<<<<<<<........................ */
+
+.second_navbar span a {
+  font-size: 18px;
+}
+.second_navbar span a i{
+  position: relative;
+  top: 2px;
+}
+
+.second_navbar{
+ 
+}
+
+
+/* ....................>>>>>>>>>>>>>>>>>>>>>>>>>>>>BODy<<<<<<<<<<<<<>>>>>>>>>>>><<<................................ */
+
+/* ..........Pickup locaton & Drop location......... */
+.pickup_location form .pickup_location_icon{
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.pickup_location form .pickup{
+  padding-left: 30px;
+}
+.pickup_location form input::placeholder{
+  position: relative;
+  /* left: 25px; */
+}
+
+.pickup_location form .calender_icon{
+  position: relative;
+  left: 20px;
+  top: 7px;
+}
+.pickup_location form input {
+  padding-left:20px ;
+}
+
+/* .............Ride with friends............ */
+
+
+
+/* .....................SUGGESTIONS................. */
+
+
+
+.suggestions{
+  cursor: pointer;
+}
+
+.suggestions .suggestions_ride{
+  background-color: rgba(186, 193, 192,0.3);
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.suggestions .suggestions_ride p{
+  font-size: 13px;
+  font-weight: 300;
+}
+.suggestions .suggestions_ride button{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+.suggestions .suggestions_ride button:hover{
+  background-color: gray;
+}
+
+/* ..................Ride Options............ */
+
+.airports span{
+  cursor: pointer;
+}
+
+/* ...................More in the App................ */
+/* .more_inapp{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 30px;
+  cursor: pointer;
+  background-color: rgb(185, 184, 184);
+}
+
+.more_inapp .more_inapp_download{
+  align-content: center;
+}
+
+.more_inapp .more_inapp_download i{
+  transition-duration: 1s;
+}
+.more_inapp:hover .more_inapp_download i{
+  transform: translateX(25px);
+} */
+
+.domore_conatiner_fluid{
+  background-color: rgba(228, 222, 222,0.3);
+}
+
+
+.domore_inapp{
+  cursor: pointer;
+}
+.domore_inapp .domore_inapp_download{
+  background-color: rgb(186, 193, 192);
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.domore_inapp .domore_inapp_download i{
+  font-size: 25px;
+  transition-duration: 1s;
+}
+.domore_inapp:hover .domore_inapp_download i{
+  transform: translateX(20px);
+} 
+
+/* .........Sign up to Ride....... */
+.signup_ride{
+  cursor: pointer;
+}
+
+/* ...........Looking for business......... */
+.lookingfor_business div span{
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s linear;
+}
+.lookingfor_business div span:hover{
+  color: gray;
+}
+.lookingfor_business .lookingfor_business_list  li span{
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.lookingfor_business .lookingfor_business_list  li span:hover{
+  color: gray;
+}
+.checkout_solution button{
+  font-size: 18px;
+  font-weight: 400;
+  background-color: white;
+}
+.checkout_solution button:hover{
+  background-color: rgb(239, 239, 239);
+}
+.checkout_solution p{
+  cursor: pointer;
+}
+
+/* ....................>>>>>>>>>>>>>>>>>>>>>>>>FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<........................ */
+
+.footer_main{
+  background-color: black;
+}
+
+.footer_company a{
+  color: white;
+  transition: all 0.2s linear;
+}
+.footer_company  a:hover{
+  color: gray;
+}
+
+.footer_socialmedia .socialmedia_icons a{
+  color: white;
+  font-size: 18px;
+}
+
+.footer_socialmedia .socialmedia_icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_socialmedia .socialmedia_icons a{
+  background-color:black;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  align-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer_socialmedia .socialmedia_icons a:hover{
+  background-color: rgb(99, 99, 99);
+  height: 45px;
+  width: 45px;
+  border-radius: 7px;
+  text-align: center;
+  align-content: center;
+}
+
+.footer_loaction .footer_loaction_icon{
+  display: flex;
+  justify-content: end;
+}
+
+.footer_loaction .footer_loaction_icon a{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  height: 45px;
+  width: 120px;
+  background-color: black;
+  text-align: center;
+  align-content: center;
+  transition: all 0.1s linear;
+}
+
+.footer_loaction .footer_loaction_icon a:hover{
+  background-color: rgb(99, 99, 99);
+  height: 45px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  align-content: center;
+}
+
+.footer_copyrights{
+  font-size: 13px;
+}
+
+.footer_privacy{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.footer_privacy a{
+  padding-left: 20px;
+  font-size: 13px;
+  color: gray;
+  transition: all 0.1s linear;
+}
+
+.footer_privacy a:hover{
+  color: rgb(66, 66, 66);
+}
+
+/* ............................>>>>>>>>>>>>>>>>>>>>>>>> LOGIn<<<<<<<<<<<<<<<<<<<<<<<<.......................... */
+.signup{
+  width: 100%;
+}
+.signup_div{
+  width: 100%;
+  text-align: center;
+}
+.signup .signup_div form{
+  width: 100%;
+}
+.signup .signup_div .continue_btn{
+  background-color: black;
+  color: white;
+}
+.signup .signup_div button{
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+}
+.signup .signup_div button img{
+  margin-bottom: 5px;
+}
+.signup .signup_div p{
+  font-size: 13px;
+  color: gray;
+}
+
+
+/* ........................>>>>>>>>>>>>>>>>>>>>> GET RIDE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<............... */
+
+.getride .getride_div{
+  border: 2px solid grey;
+  border-radius: 8px;
+  height: max-content;
+  padding: 18px;
+}
+.getride .getride_div form i{
+  position: relative;
+  top: 30px;
+  padding-left: 10px;
+}
+.getride .getride_div form .pickupnow{
+  width: 100%;
+}
+.getride .getride_div form{
+  position: relative;
+}
+.getride .getride_div form .cirlceplus{
+  position: absolute;
+  right: 10px;
+  top: 95px;
+}
+.getride .getride_div form input{
+  padding-left: 30px;
+}
+.getride .getride_div .formebutn{
+  background-color: rgba(174, 171, 171,0.4);
+  border-radius: 50px;
+}
+.getride .getride_div .searchbutn{
+  background-color: rgb(239, 246, 245);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+}
+.getride .getride_div .pickupnow{
+  width: 100%;
+}
+/* .....>>>> Package <<<<<..... */
+.package .package_div .searchbutn{
+  background-color: rgb(239, 246, 245);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+}
+/* ........... >>>>>>>> Shuttle <<<<<<..... */
+.shuttle_butn button{
+  background-color:  rgba(174, 171, 171,0.6);
+  border-radius: 50px;
+  border: 0px;
+}
+
+
+/* .............>>>>>>>>>>>>>>>>>>>>>>>>>>RESPONSIVE for MOBILE<<<<<<<<<<<<<<<<<<<<................ */
+
+/* ........Seocnd Navbar.... */
+
+@media screen and (max-width:576px) {
+  .second_navbar .anchor{
+    display: none;
+  } 
+  .suggestions .suggestions_ride img{
+    width: 100%;
+  }
+ .domore_inapp .domore_inapp_download img{
+  width: 100%;
+ }
+ .footer_loaction{
+  position: relative;
+ }
+ .footer_loaction .footer_loaction_icon{
+  position: absolute;
+  bottom: 0px;
+  top: 7px;
+  display: flex;
+  flex-direction: column;
+ } 
+ .footer_loaction .footer_loaction_icon a:hover{
+  background-color:  rgb(99, 99, 99);
+  padding: 0px;
+ }
+ .footer_googleplay_download{
+  position: relative;
+ }
+ .footer_googleplay_download_img{
+  position: absolute;
+  top: 20px;
+ }
+ .footer_copyrights{
+  position: relative;
+  top: 40px;
+ }
+ .footer_privacy{
+  position: relative;
+  top: 8px;
+ }
+}
+
+/* ...........>>>>>>>>>>>RESPONSIVE FOR TABLET<<<<<<<<<<<<<............... */
+
+@media screen and (min-width:580px) and (max-width:990px) {
+
+  .second_navbar .anchor{
+    display: none;
+  }
+
+ /* .........FOOTER........ */
+.footer_loaction{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ }
+ .footer_loaction .footer_loaction_icon{
+  position: absolute;
+  bottom: 0px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+ }
+ .footer_loaction .footer_loaction_icon a:hover{
+  background-color:  rgb(99, 99, 99);
+  padding: 0px;
+ }
+ .footer_googleplay_download{
+  position: relative;
+ }
+ .footer_googleplay_download_img{
+  position: absolute;
+  top: 30px;
+ }
+  
+}
+
